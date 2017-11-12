@@ -1,5 +1,5 @@
 run: all
-	./run
+	./run "ls -l -a" "ls -l -a -h -i"
 
 all: main.o
 	gcc -o run main.o 
